@@ -2,8 +2,10 @@
 
 /*
  * Fix iOS font weight issue
- * normal(400): W3, bold(700): W6
- * Ref: https://pocket-base.com/blog/2023/09/iphone-ipad-hiragino/
+ * It is workaround for apple font weight issue
+ * Ref: 
+ * - https://github.com/flutter/flutter/issues/132475
+ * - https://pocket-base.com/blog/2023/09/iphone-ipad-hiragino/
  */
 @font-face {
     font-family: "Fixme-Hiragino-Sans";
