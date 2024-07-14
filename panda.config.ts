@@ -39,7 +39,7 @@ export default defineConfig({
       colors: {
         "green": {
           100: {
-            value: "#D5F1D2",
+            value: "#D5F1D3",
           },
           200: {
             value: "#58C55E",
@@ -51,10 +51,10 @@ export default defineConfig({
             value: "#00752A",
           },
           600: {
-            value: "#006022",
+            value: "#006023",
           },
           700: {
-            value: "#004A1A",
+            value: "#004A2A",
           },
           800: {
             value: "#003812",
@@ -164,12 +164,11 @@ export default defineConfig({
         },
       },
       fontWeights: {
-        // 400, 600,
         "regular": {
           value: "400",
         },
         "strong": {
-          value: "600",
+          value: "700",
         }
       },
       fontSizes: {
@@ -208,7 +207,6 @@ export default defineConfig({
         },
       },
       lineHeights: {
-        // 160%, 140%, 100%
         l: {
           value: "160%",
         },
